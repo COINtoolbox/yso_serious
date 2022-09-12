@@ -49,7 +49,7 @@ def main():
         if isinstance(fname_model, str):
             pickle.dump(clf, open(fname_model, 'wb'))
     else:
-        clf = pickle.load(open(fname_modl, 'rb'))
+        clf = pickle.load(open(fname_model, 'rb'))
         
     # calculate and save scores to file
     scores = {}    
