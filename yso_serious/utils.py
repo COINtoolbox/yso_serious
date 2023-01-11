@@ -30,7 +30,7 @@ __all__ = [
     'selection_cuts',
     'mag_asymmetry',
     'calculate_features_from_api',
-    'calculate_features_from_parquet'
+    'build_features_from_parquet'
 ]
 
 def build_header():
